@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 using System.Linq;
 
-class MyProgram
+class StringProgram
 {
     TextInfo currentTextInfo = CultureInfo.CurrentCulture.TextInfo;
     static string PrintMsg(string firstName, string lastName)
@@ -9,23 +9,29 @@ class MyProgram
         TextInfo currentTextInfo = CultureInfo.CurrentCulture.TextInfo;
         return string.Format("Thanks {0} {1}, for celebraing with us", currentTextInfo.ToTitleCase(firstName), currentTextInfo.ToTitleCase(lastName));
     }
-    static string swapCase(string text)
+    static string swapCase(string input)
     {
-        char[] chars = new char[text.Length];
-        string upperLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        string lowerLetters = "abcdefghijklmnopqrstuvwxyz";
-        for(int i = 0; i < chars.Length; i++)
+        char[] result = new char[input.Length];
+
+        for (int i = 0; i < input.Length; i++)
         {
-            if (text[i].ToString() == text[i].ToString().ToUpper())
+            char c = input[i];
+
+            if (char.IsUpper(c))
             {
-                
+                result[i] = char.ToLower(c);
             }
-            else if (lowerLetters.Contains(text[i]))
+            else if (char.IsLower(c))
             {
-                text[i].ToString().ToUpper();
+                result[i] = char.ToUpper(c);
+            }
+            else
+            {
+                result[i] = c;
             }
         }
-        return text;
+
+        return new string(result);
     }
     static string convertText(string word)
     {
@@ -76,13 +82,13 @@ class MyProgram
         //Console.WriteLine("Enter your last name: ");
         //string lastName = Console.ReadLine();
         //Console.WriteLine(MyProgram.PrintMsg(firstName, lastName));
-        //Console.WriteLine("Enter any word: ");
-        //string name = "Mike, Jedi, Hosea, Jericho";
-        //string[] names = name.Split(",");
-        //string word = Console.ReadLine();
-        //int[] ages = new int[] { 4, 5, 6, 7, 8, 9, 10 };
-        //string result = string.Join(",", ages);
-        //Array.ForEach(names, x => Console.WriteLine(x));
-        Console.WriteLine(MyProgram.convertText("The_Stealth_Warrior"));
+
+        //Swap case problem
+        Console.WriteLine("Enter any word: ");
+        string word = Console.ReadLine();
+        Console.WriteLine(StringProgram.swapCase(word));
+
+        //Split and Join String problem
+        Console.WriteLine(StringProgram.convertText("The_Stealth_Warrior"));
     }
 }

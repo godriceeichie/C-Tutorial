@@ -1,0 +1,14 @@
+C:\Users\HP\source\repos\Strings in C#\bin\Debug\net6.0\Strings in C#.exe
+C:\Users\HP\source\repos\Strings in C#\bin\Debug\net6.0\Strings in C#.deps.json
+C:\Users\HP\source\repos\Strings in C#\bin\Debug\net6.0\Strings in C#.runtimeconfig.json
+C:\Users\HP\source\repos\Strings in C#\bin\Debug\net6.0\Strings in C#.dll
+C:\Users\HP\source\repos\Strings in C#\bin\Debug\net6.0\Strings in C#.pdb
+C:\Users\HP\source\repos\Strings in C#\obj\Debug\net6.0\Strings in C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Strings in C#\obj\Debug\net6.0\Strings in C#.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Strings in C#\obj\Debug\net6.0\Strings in C#.AssemblyInfo.cs
+C:\Users\HP\source\repos\Strings in C#\obj\Debug\net6.0\Strings in C#.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Strings in C#\obj\Debug\net6.0\Strings in C#.dll
+C:\Users\HP\source\repos\Strings in C#\obj\Debug\net6.0\refint\Strings in C#.dll
+C:\Users\HP\source\repos\Strings in C#\obj\Debug\net6.0\Strings in C#.pdb
+C:\Users\HP\source\repos\Strings in C#\obj\Debug\net6.0\Strings in C#.genruntimeconfig.cache
+C:\Users\HP\source\repos\Strings in C#\obj\Debug\net6.0\ref\Strings in C#.dll

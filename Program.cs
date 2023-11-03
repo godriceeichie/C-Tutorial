@@ -33,6 +33,40 @@ class StringProgram
 
         return new string(result);
     }
+
+    static string StringGame(string input)
+    {
+        int upperScore = 0;
+        int lowerScore = 0;
+
+
+        for (int i = 0; i < input.Length; i++)
+        {
+            char c = input[i];
+
+            if (char.IsUpper(c))
+            {
+                upperScore++;
+            }
+            else if (char.IsLower(c))
+            {
+                lowerScore++;
+            }
+        }
+        if(upperScore > lowerScore)
+        {
+            return "Uppercase has won";
+        }
+        else if(lowerScore > upperScore)
+        {
+            return "Lowercase has won";
+        }
+        else
+        {
+            return "Draw";
+        }
+
+    }
     static string convertText(string word)
     {
         TextInfo currentTextInfo = CultureInfo.CurrentCulture.TextInfo;
@@ -74,6 +108,7 @@ class StringProgram
         return result;
         
     }
+
     
     private static void Main()
     {
@@ -87,6 +122,9 @@ class StringProgram
         Console.WriteLine("Enter any word: ");
         string word = Console.ReadLine();
         Console.WriteLine(StringProgram.swapCase(word));
+
+        //Uppercase and lowercase game
+        Console.WriteLine(StringProgram.StringGame(word));
 
         //Split and Join String problem
         Console.WriteLine(StringProgram.convertText("The_Stealth_Warrior"));

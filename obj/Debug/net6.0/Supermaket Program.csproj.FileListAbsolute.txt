@@ -1,0 +1,14 @@
+C:\Users\HP\source\repos\Supermaket Program\bin\Debug\net6.0\Supermaket Program.exe
+C:\Users\HP\source\repos\Supermaket Program\bin\Debug\net6.0\Supermaket Program.deps.json
+C:\Users\HP\source\repos\Supermaket Program\bin\Debug\net6.0\Supermaket Program.runtimeconfig.json
+C:\Users\HP\source\repos\Supermaket Program\bin\Debug\net6.0\Supermaket Program.dll
+C:\Users\HP\source\repos\Supermaket Program\bin\Debug\net6.0\Supermaket Program.pdb
+C:\Users\HP\source\repos\Supermaket Program\obj\Debug\net6.0\Supermaket Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Supermaket Program\obj\Debug\net6.0\Supermaket Program.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Supermaket Program\obj\Debug\net6.0\Supermaket Program.AssemblyInfo.cs
+C:\Users\HP\source\repos\Supermaket Program\obj\Debug\net6.0\Supermaket Program.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Supermaket Program\obj\Debug\net6.0\Supermaket Program.dll
+C:\Users\HP\source\repos\Supermaket Program\obj\Debug\net6.0\refint\Supermaket Program.dll
+C:\Users\HP\source\repos\Supermaket Program\obj\Debug\net6.0\Supermaket Program.pdb
+C:\Users\HP\source\repos\Supermaket Program\obj\Debug\net6.0\Supermaket Program.genruntimeconfig.cache
+C:\Users\HP\source\repos\Supermaket Program\obj\Debug\net6.0\ref\Supermaket Program.dll

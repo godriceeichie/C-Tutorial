@@ -5,7 +5,7 @@
     {
         if (products.ContainsKey(product))
         {
-            products[product]++;
+            products[product] += price;
         }
         else
         {
@@ -19,6 +19,7 @@
         {
             Console.WriteLine("Product: " + kvp.Key);
             Console.WriteLine("Price: " + kvp.Value);
+            Console.WriteLine("---------------------");
         }
     }
     private static void Main()
